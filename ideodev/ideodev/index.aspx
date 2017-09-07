@@ -80,8 +80,8 @@
 
                                 <li>
                                     <div class="slider-caption">
-                                        <h2>User Satisfaction</h2>
-                                        <p>Get your website that is fully functional,secure,reliable and perfomance obssessed</p>
+                                        <h2>Take your business to next level</h2>
+                                        <p>Let your website be an investment in terms of money and time through expanding your sales and advertisement channels through a website</p>
                                         <a href="#" class="largeButton homeBgColor">Details</a>
                                     </div>
                                     <img src="images/slide2.jpg" alt="Slide 2" />
@@ -90,7 +90,7 @@
                                 <li>
                                     <div class="slider-caption">
                                         <h2>Business Driven Solutions</h2>
-                                        <p>Improve revenue and explore markets by getting a website</p>
+                                        <p>Improve revenue and explore markets by getting a website for R999 only</p>
                                         <a href="#" class="largeButton homeBgColor">Downloads</a>
                                     </div>
                                     <img src="images/slide3.jpg" alt="Slide 3" />
