@@ -72,7 +72,7 @@
                                     <div class="slider-caption">
                                         <h2>Cutting Edge Technologies</h2>
                                         <p>We develop very modern websites  with all the newest features </p>
-                                        <a href="#" class="largeButton homeBgColor">Read More</a>
+                                        <a href="#" class="largeButton homeBgColor">View Technologies</a>
                                     </div>
 
                                     <img src="images/slide1.jpg" alt="Slide 1" />
@@ -90,8 +90,8 @@
                                 <li>
                                     <div class="slider-caption">
                                         <h2>Business Driven Solutions</h2>
-                                        <p>Improve revenue and explore markets by getting a website for R999 only</p>
-                                        <a href="#" class="largeButton homeBgColor">Downloads</a>
+                                        <p>Improve revenue and explore markets by getting a website starting at R999 only</p>
+                                        <a href="#" class="largeButton homeBgColor">view pricing</a>
                                     </div>
                                     <img src="images/slide3.jpg" alt="Slide 3" />
                                 </li>
@@ -104,7 +104,7 @@
                             <div class="col-md-12">
                                 <div class="welcome-text">
                                     <h2>Welcome to Ideodev Web Solutions</h2>
-                                    <p>Skble is a web solutions development company that focuses on small to medium scaled <a href="http://www.facebook.com/templatemo" target="_parent">businesses</a>. Kick-start your business by getting a fresh website that exposes your business to a wide range of customers. Our solutions are categorised into business to consumer(B2C),business to business (B2B) and consumer to consumer(C2C) categories. To find more about the category your business is in go <a rel="nofollow" href="http://flexslider.woothemes.com">here</a></p>
+                                    <p>Ideodev is a web solutions development company that focuses on small to medium scaled <a href="https://en.wikipedia.org/wiki/Small_business" target="_parent">businesses</a>. Kick-start your business by getting a fresh website that exposes your business to a wide range of customers. Our solutions are categorised into business to consumer(B2C),business to business (B2B) and consumer to consumer(C2C) categories. To find more about the category your business is in go <a rel="nofollow" href="https://en.wikipedia.org/wiki/E-commerce">here</a></p>
                                 </div>
                             </div>
                         </div>
@@ -191,7 +191,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="story-image">
-                                    <img src="images/responsive-design.jpg" alt="">
+                                    <img src="images/responsive-design.jpg" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -326,6 +326,7 @@
                     </div>
                     <!-- /#portfolio -->
 
+
                     <div id="contact" class="section-content">
                         <div class="row">
                             <div class="col-md-12">
@@ -440,29 +441,51 @@
     <script src="scripts/js/jquery.flexslider.js"></script>
     <script src="scripts/js/jquery.prettyPhoto.js"></script>
     <script src="scripts/js/custom.js"></script>
-    <script>
-        $(document).ready(function () {
-            $("a[data-gal^='prettyPhoto']").prettyPhoto({ hook: 'data-gal' });
-        });
+	<script>
+		$(document).ready(function(){
+			$("a[data-gal^='prettyPhoto']").prettyPhoto({hook: 'data-gal'});
+		});
 
-        function initialize() {
-            var mapOptions = {
-                zoom: 13,
-                center: new google.maps.LatLng(40.7809919, -73.9665273)
-            };
+		function initialize() {
+		  var myLatLng = { lat: -26.189805, lng: 27.993911 };
+          var mapOptions = {
+              zoom: 13,
+                  center: new google.maps.LatLng(-26.189805,27.993911)
+          };
 
-            var map = new google.maps.Map(document.getElementById('map-canvas'),
-                mapOptions);
+          var marker = new google.maps.Marker({
+              position: myLatLng,
+              map: map,
+              title: 'Ideodev'
+          });
+
+          var map = new google.maps.Map(document.getElementById('map-canvas'),
+              mapOptions);
+          TestMarker();
         }
 
         function loadScript() {
-            var script = document.createElement('script');
-            script.type = 'text/javascript';
-            script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
-                'callback=initialize';
-            document.body.appendChild(script);
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyD_eCpc79dYhWD6B_nnK1tF5FBRwFbkAAE&sensor=false&' +
+              'callback=initialize';
+          document.body.appendChild(script);
         }
-        k
+
+        // Function for adding a marker to the page.
+        function addMarker(location) {
+            marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+
+        // Testing the addMarker function
+        function TestMarker() {
+                CentralPark = new google.maps.LatLng(-26.189805, 27.993911 );
+            addMarker(CentralPark);
+        }
+
         window.onload = loadScript;
     </script>
 </body>
