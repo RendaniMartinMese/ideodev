@@ -124,70 +124,38 @@
                         </div>
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="member-item">
-                                    <div class="member-thumb">
-                                        <img src="images/team1.jpg" alt="girl 1">
-                                        <div class="overlay">
-                                            <ul class="social-member">
-                                                <li><a href="#" class="fa fa-facebook"></a></li>
-                                                <li><a href="#" class="fa fa-twitter"></a></li>
-                                                <li><a href="#" class="fa fa-linkedin"></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                <div class="member-item" style="text-align: center;">
                                     <div class="member-content">
-                                        <h4>Tanna Dona</h4>
-                                        <p>Marketing Director</p>
+                                        <h4>Martin Mese</h4>
+                                        <p>Lead Programmer</p>
                                     </div>
                                 </div>
                             </div>
-                            <!-- /.col-md-4 -->
                             <div class="col-md-4">
-                                <div class="member-item">
-                                    <div class="member-thumb">
-                                        <img src="images/team2.jpg" alt="girl 2">
-                                        <div class="overlay">
-                                            <ul class="social-member">
-                                                <li><a href="#" class="fa fa-facebook"></a></li>
-                                                <li><a href="#" class="fa fa-twitter"></a></li>
-                                                <li><a href="#" class="fa fa-linkedin"></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                <div class="member-item" style="text-align: center;">
                                     <div class="member-content">
-                                        <h4>Candy Ball</h4>
-                                        <p>Creative Executive</p>
+                                        <h4>Thando Nkomo</h4>
+                                        <p>Markerting Director</p>
                                     </div>
                                 </div>
                             </div>
-                            <!-- /.col-md-4 -->
                             <div class="col-md-4">
-                                <div class="member-item">
-                                    <div class="member-thumb">
-                                        <img src="images/team3.jpg" alt="girl 3">
-                                        <div class="overlay">
-                                            <ul class="social-member">
-                                                <li><a href="#" class="fa fa-facebook"></a></li>
-                                                <li><a href="#" class="fa fa-twitter"></a></li>
-                                                <li><a href="#" class="fa fa-linkedin"></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                <div class="member-item" style="text-align: center;">
                                     <div class="member-content">
-                                        <h4>Tawana Cherry</h4>
-                                        <p>Company President</p>
+                                        <h4>Phathutshedzo Mukwevho</h4>
+                                        <p>Project Administrator</p>
                                     </div>
                                 </div>
                             </div>
-                            <!-- /.col-md-4 -->
                         </div>
                         <!-- /.row -->
+                        <%--http://hrweb.mit.edu/learning-development/learning-topics/teams/articles/basics--%>
                         <div class="row our-story">
                             <div class="col-md-8">
                                 <h3>Furious Teamwork</h3>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, exercitationem, laboriosam, modi non quisquam voluptas accusamus numquam ipsum reiciendis saepe veniam cupiditate explicabo autem. Quisque in metus tristique, gravida dolor ut, varius neque. Maecenas ac risus aliquam, facilisis massa id, vulputate elit.<br>
-                                <br>
-                                Curabitur pretium arcu dictum, faucibus diam quis, commodo turpis. Proin viverra, risus eget egestas sodales, felis ante scelerisque ligula, eget condimentum diam ligula eu tellus. Repudiandae tempore dolore deserunt nemo voluptatum consectetur aspernatur expedita aliquid iste illo enim molestias vel animi quod.
+                                At Ideodev we work together as a team that has a well defined mission and goal. Our team work is defined by the shared commitment to both the team's product<br />
+                                <br />
+                                This commitment to team process is demonstrated through the development and use of team norms and groundrules, a willingness to pay attention to group process, and a sense of mutual accountability both to the members of the team as individuals and the team as a whole.
                             </div>
                             <div class="col-md-4">
                                 <div class="story-image">
@@ -255,7 +223,7 @@
                         <div class="row our-skills">
                             <div class="col-md-8">
                                 <h3>Our Skills</h3>
-                                Duis augue eros, mollis ac velit at, rutrum tincidunt ipsum. Morbi semper dui id fringilla semper. Vivamus ac ante cursus, feugiat ipsum et, aliquet justo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, minima soluta numquam perferendis illum alias omnis commodi error veritatis a esse nostrum asperiores recusandae.
+                             At ideodev we develop fully functional web solutions that focuses on the full stack. We handle all layers from networking,data modelling, business logic, API layer, user interface, user experience and mainly understanding what the customer and the business need.
                             </div>
                             <div class="col-md-4">
                                 <ul class="progess-bars">
@@ -441,35 +409,35 @@
     <script src="scripts/js/jquery.flexslider.js"></script>
     <script src="scripts/js/jquery.prettyPhoto.js"></script>
     <script src="scripts/js/custom.js"></script>
-	<script>
-		$(document).ready(function(){
-			$("a[data-gal^='prettyPhoto']").prettyPhoto({hook: 'data-gal'});
-		});
+    <script>
+        $(document).ready(function () {
+            $("a[data-gal^='prettyPhoto']").prettyPhoto({ hook: 'data-gal' });
+        });
 
-		function initialize() {
-		  var myLatLng = { lat: -26.189805, lng: 27.993911 };
-          var mapOptions = {
-              zoom: 13,
-                  center: new google.maps.LatLng(-26.189805,27.993911)
-          };
+        function initialize() {
+            var myLatLng = { lat: -26.189805, lng: 27.993911 };
+            var mapOptions = {
+                zoom: 13,
+                center: new google.maps.LatLng(-26.189805, 27.993911)
+            };
 
-          var marker = new google.maps.Marker({
-              position: myLatLng,
-              map: map,
-              title: 'Ideodev'
-          });
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: 'Ideodev'
+            });
 
-          var map = new google.maps.Map(document.getElementById('map-canvas'),
-              mapOptions);
-          TestMarker();
+            var map = new google.maps.Map(document.getElementById('map-canvas'),
+                mapOptions);
+            TestMarker();
         }
 
         function loadScript() {
-          var script = document.createElement('script');
-          script.type = 'text/javascript';
-          script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyD_eCpc79dYhWD6B_nnK1tF5FBRwFbkAAE&sensor=false&' +
-              'callback=initialize';
-          document.body.appendChild(script);
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyD_eCpc79dYhWD6B_nnK1tF5FBRwFbkAAE&sensor=false&' +
+                'callback=initialize';
+            document.body.appendChild(script);
         }
 
         // Function for adding a marker to the page.
@@ -482,7 +450,7 @@
 
         // Testing the addMarker function
         function TestMarker() {
-                CentralPark = new google.maps.LatLng(-26.189805, 27.993911 );
+            CentralPark = new google.maps.LatLng(-26.189805, 27.993911);
             addMarker(CentralPark);
         }
 
