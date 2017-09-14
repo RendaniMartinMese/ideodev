@@ -123,27 +123,11 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-12">
                                 <div class="member-item" style="text-align: center;">
                                     <div class="member-content">
                                         <h4>Martin Mese</h4>
-                                        <p>Lead Programmer</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="member-item" style="text-align: center;">
-                                    <div class="member-content">
-                                        <h4>Thando Nkomo</h4>
-                                        <p>Markerting Director</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="member-item" style="text-align: center;">
-                                    <div class="member-content">
-                                        <h4>Phathutshedzo Mukwevho</h4>
-                                        <p>Project Administrator</p>
+                                        <p>Lead Developer </p>
                                     </div>
                                 </div>
                             </div>
@@ -239,12 +223,12 @@
                                     </li>
                                     <li>
                                         <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">sql asp jquery javascript 90%</div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">sql asp jquery javascript 90%</div>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">hosting 100%</div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 98%;">Up-time 99%</div>
                                         </div>
                                     </li>
                                 </ul>
@@ -268,15 +252,15 @@
                             <div class="col-md-4">
                                 <div class="portfolio-item">
                                     <div class="portfolio-thumb">
-                                        <img src="images/portfolio/1.jpg" alt="Fantasy" />
+                                        <img src="images/portfolio/scaftin.png" alt="Fantasy" />
                                         <div class="overlay-p">
-                                            <a href="images/portfolio/1.jpg" data-gal="prettyPhoto">
+                                            <a href="images/portfolio/scaftin.png" data-gal="prettyPhoto">
                                                 <i class="fa fa-arrows-alt fa-2x"></i>
                                             </a>
                                         </div>
                                     </div>
                                     <!-- /.portfolio-thumb -->
-                                    <h3 class="portfolio-title"><a href="#">ZANDYS</a></h3>
+                                    <h3 class="portfolio-title"><a href="#">Scaftin</a></h3>
                                 </div>
                                 <!-- /.portfolio-item -->
                             </div>
@@ -320,17 +304,17 @@
                         <div class="row contact-form">
                             <div class="col-md-4">
                                 <label for="name-id" class="required">Name:</label>
-                                <input name="name-id" type="text" id="name-id" maxlength="40">
+                                <input name="name-id" type="text" id="name-id" maxlength="40"/>
                             </div>
                             <!-- /.col-md-4 -->
                             <div class="col-md-4">
                                 <label for="email-id" class="required">Email:</label>
-                                <input name="email-id" type="text" id="email-id" maxlength="40">
+                                <input name="email-id" type="text" id="email-id" maxlength="40"/>
                             </div>
                             <!-- /.col-md-4 -->
                             <div class="col-md-4">
                                 <label for="subject-id">Subject:</label>
-                                <input name="subject-id" type="text" id="subject-id" maxlength="60">
+                                <input name="subject-id" type="text" id="subject-id" maxlength="60"/>
                             </div>
                             <!-- /.col-md-4 -->
                             <div class="col-md-12">
